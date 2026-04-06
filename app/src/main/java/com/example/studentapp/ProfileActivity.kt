@@ -14,11 +14,9 @@ class ProfileActivity : AppCompatActivity() {
         val userData = intent.getParcelableExtra<UserData>("USER_DATA")
 
         userData?.let { data ->
-            // Avatar initial
             val tvInitial = findViewById<TextView>(R.id.tvInitial)
             tvInitial.text = data.namaLengkap.firstOrNull()?.uppercaseChar()?.toString() ?: "?"
 
-            // Info fields
             findViewById<TextView>(R.id.tvNama).text        = data.namaLengkap
             findViewById<TextView>(R.id.tvNim).text         = data.nim
             findViewById<TextView>(R.id.tvProdi).text       = data.programStudi
@@ -26,7 +24,6 @@ class ProfileActivity : AppCompatActivity() {
             findViewById<TextView>(R.id.tvHobi).text        =
                 if (data.hobi.isEmpty()) "-" else data.hobi.joinToString(" • ")
 
-            // Gender icon
             val ivGenderIcon = findViewById<ImageView>(R.id.ivGenderIcon)
             ivGenderIcon.setImageResource(
                 if (data.jenisKelamin.equals("Laki-laki", ignoreCase = true))
