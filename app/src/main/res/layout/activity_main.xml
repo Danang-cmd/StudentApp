@@ -11,7 +11,6 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <!-- Header Banner -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,7 +44,6 @@
                 android:layout_marginTop="4dp" />
         </LinearLayout>
 
-        <!-- Card: Identitas -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,7 +68,6 @@
                     android:textColor="#3949AB"
                     android:layout_marginBottom="16dp" />
 
-                <!-- Nama Lengkap -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -91,7 +88,6 @@
                     android:textSize="14sp"
                     android:layout_marginBottom="16dp" />
 
-                <!-- NIM -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -112,7 +108,6 @@
                     android:textSize="14sp"
                     android:layout_marginBottom="16dp" />
 
-                <!-- Program Studi -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -133,7 +128,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Card: Jenis Kelamin -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -188,7 +182,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Card: Hobi -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -265,7 +258,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Tombol Submit -->
         <Button
             android:id="@+id/btnTampilkan"
             android:layout_width="match_parent"
