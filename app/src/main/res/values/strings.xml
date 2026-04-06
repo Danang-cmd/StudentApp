@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student App</string>
+
+    <string-array name="program_studi">
+        <item>Teknik Informatika</item>
+        <item>Sistem Informasi</item>
+        <item>Teknik Elektro</item>
+        <item>Manajemen Informatika</item>
+        <item>Ilmu Komputer</item>
+        <item>Teknik Komputer</item>
+    </string-array>
+</resources>
